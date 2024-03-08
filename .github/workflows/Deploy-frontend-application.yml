@@ -3,7 +3,6 @@ name: Deploy frontend application
   push:
     branches:
       - b1
-      - main
 jobs:
   docker:
     runs-on: ubuntu-latest
